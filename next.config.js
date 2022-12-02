@@ -1,6 +1,6 @@
 module.exports = {
     env: {
-        BASE_URL: 'http://localhost:5000',
+        BASE_URL: 'http://45.147.176.95:5000',
     },
     images: {
         deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
