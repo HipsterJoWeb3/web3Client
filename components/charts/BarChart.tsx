@@ -33,7 +33,7 @@ export const options = {
       display: false,
     },
     legend: {
-      // display: false,
+      display: false,
       fontFamily: 'IBM Plex Mono'
     },
     tooltip: {
