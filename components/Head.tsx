@@ -29,7 +29,7 @@ const MyHead: React.FC<HeadProps> = ({title, description, keywords}) => {
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             <meta name="description" content={description ? description : dataSeo.description}/>
             <meta name="keywords" content={`${dataSeo.keywords?.join(',')}, ${keywords?.join(',')}`}/>
-            <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+            <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
         </Head>
     )
 }
